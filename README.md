@@ -1,7 +1,5 @@
 # Example Consume API in React JS
 
-Data: [https://masak-apa-tomorisakura.vercel.app/api/recipes](https://masak-apa-tomorisakura.vercel.app/api/recipes)
-
 
 # Getting Started with Create React App
 
