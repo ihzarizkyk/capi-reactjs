@@ -1,4 +1,5 @@
 import Head from './Head.js';
+import Api from './Api.js';
 
 function Button(){
   return(
@@ -15,6 +16,7 @@ export default function App(){
       margin={10}
       color="red" />
       <Button />
+      <Api />
     </section>
     );
 }

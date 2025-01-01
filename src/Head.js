@@ -1,11 +1,17 @@
-function Text(){
+function Text({margin, color}){
+
+	const style = {
+		margin: '$(margin)',
+		color: color,
+	};
+
 	return(
-		<h1>Hello Capi 2025</h1>
+		<h1 style={style} >Hello Capi 2025</h1>
 	);
 }
 
-export default function Head(){
+export default function Head({margin, color}){
 	return(
-		<Text/>
+		<Text margin={margin} color={color} />
 	);
 }
