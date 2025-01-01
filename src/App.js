@@ -10,7 +10,11 @@ function Button(){
 
 export default function App(){
   return(
-      <Button/>
-      <Head/>
+    <section>
+      <Head 
+      margin={10}
+      color="red" />
+      <Button />
+    </section>
     );
 }
