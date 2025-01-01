@@ -1,3 +1,5 @@
+import Head from './Head.js';
+
 function Button(){
   return(
     <button type="button" className="welcome">
@@ -9,5 +11,6 @@ function Button(){
 export default function App(){
   return(
       <Button/>
+      <Head/>
     );
 }
